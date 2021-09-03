@@ -1,4 +1,4 @@
-
+Solutoin Strategy for HW1
 ## Project Eular: Problrm 6
 ![p-6.png](https://i.loli.net/2021/09/02/ieLNZdy82nv6zjs.png)
 
