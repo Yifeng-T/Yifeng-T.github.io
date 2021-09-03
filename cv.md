@@ -1,3 +1,4 @@
+<center> Resume </center>
 
 ## Education
 * 2020 ~ 2022 Duke University, Master of Biostatistics  
