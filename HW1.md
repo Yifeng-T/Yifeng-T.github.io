@@ -16,7 +16,7 @@ Then, we could easily compute the sum of squares and square of sum of variable o
 sum_sq = sum(origin**2)
 sq_sum = sum(origin)**2
 ```
-Finally, we can get the result: the sum of square is 338350, the square of sum is 25,502,500, and the difference is 25164150.  
+Finally, we can get the result: the sum of square is 338350, the square of sum is 25,502,500, and **the difference is 25164150**.  
 
 
 ## Project Eular: Problem 34
@@ -46,7 +46,7 @@ while item >= 1:
     if i == digit_sum: #check equality
         result += i #if so, we add the target number
 ```
-There are total two majic numbers, they are: 145 and 40585, and the sum is 40,730.
+There are total two majic numbers, they are: 145 and 40585, and **the sum is 40,730**.
 
 ## Project Eular: Problem 206
 ![p-206.png](https://i.loli.net/2021/09/02/YX6UfsjE1H9aC7n.png)
@@ -75,7 +75,7 @@ for j in range(0, len(a)-1):
         number = a[j]
 
 ```
-The unique number is 1,389,019,170, and the square of it is 1,929,374,254,627,488,900.
+The unique number is **1,389,019,170**, and the square of it is **1,929,374,254,627,488,900**.
 
 
 ------END
