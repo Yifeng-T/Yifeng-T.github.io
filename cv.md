@@ -1,4 +1,4 @@
-# Yifeng Tang
+
 ## Education
 * 2020 ~ 2022 Duke University, Master of Biostatistics  
 * 2016 ~ 2020 University of Waterloo, Mathematical Finance & Statistics
