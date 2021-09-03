@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title: Personal Website: Yifeng Tang
+title: Personal Website for Yifeng Tang
 locale: en_US
 logo: # filename of a logo image that has been placed into your images directory
 
@@ -13,7 +13,7 @@ owner:
   # Do not include the @ symbol in your Twitter username
   twitter: #username
   linkedin: #username
-  github: #username
+  github: Yifeng-T
   orcid: # ID Number (ex. 0000-0000-0000-0000)
   researchgate: #username
   mendeley: #username
