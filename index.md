@@ -3,7 +3,7 @@ layout: page
 excerpt: "About Me..."
 ---
 
-Hi, I am Yifeng. This is my personal website. 
+Hi, I am Yifeng. Welcome to my personal website. 
 
 ## Current Interests and Projects:
 
