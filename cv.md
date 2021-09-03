@@ -5,9 +5,9 @@
 
 ## Experiennce
 * 2021.09 ~ current  
-Duke University School of Medicine, *Statistician Intern*  
+Duke University School of Medicine, *Intern*  
 * 2021.09 ~ current  
-Duke Molecular Phisiology Institute, *Research Assistant*
+Duke Molecular Phisiology Institute, *Assistant*
 * 2021.04 ~ 2021.08  
 Sanofi, Shanghai, *Analyst Intern*
 * 2020.12 ~ 2021.01
