@@ -1,9 +1,7 @@
 # Stroke Prediction 
-(Note: You could Find Final Version in Main Branch, Master Branch is for editing and discussion)  
-Team member: Caihan Wang, Yifeng Tang, Jiajie Shen. 
 
 ## Description
-We are going to create an application which could predict the stroke of patients, giving their Gender, Age, Hypertension, Heart Disease, Ever Married, Work Type, Residence Type, Avg. Glucose Level, BMI, Smoking Status.
+The Stroke-Prediction is an application which could predict the stroke of patients, giving their Gender, Age, Hypertension, Heart Disease, Ever Married, Work Type, Residence Type, Avg, Glucose Level, BMI, Smoking Status. You could access the code and download through [URL](https://github.com/Yifeng-T/Patients-Stroke-Prediction).
 
 ## Plan
 For our data visualization part, we will include multiple informative graphs to illustrate the valuable information from our dataset: Percentage of people having strokes(in bar plot showing the percentage), Heart stroke and age, Heart stroke and Glucose, Heart stroke and weight, Gender risk for stroke, Hypertension Risk for stroke, Heart disease for stroke, Marriage and stroke, Lifestyle and stroke, Smoking and stroke, Correlation Map of features - How closely each of the features correlated. These graphs can help collaborators to understand the association between stroke and different variables.  
@@ -84,7 +82,7 @@ At last, we created a function named 'Predict'. The input value should be a list
 <br>
 
 
-### User Interface
+### Graphical User Interface
 The stroke prediction user-interface has three windows:
 <br>
 1. Initial-introduction window
