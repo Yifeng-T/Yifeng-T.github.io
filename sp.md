@@ -1,4 +1,6 @@
-Application: Stroke-Prediction
+Application: Stroke-Prediction 
+  
+Resources are located: https://github.com/Yifeng-T/Patients-Stroke-Prediction
 # Stroke Prediction 
 
 ## Brief Introduction
