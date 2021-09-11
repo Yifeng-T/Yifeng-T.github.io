@@ -1,8 +1,9 @@
-hw2
+Resources:  
+The files are located: https://github.com/Yifeng-T/Biostat823_HomeWork/tree/HW2  
+   The code file is: HW2.py  
+The test file is: test_823a2.pyhw2
 # Solution Strategy for HW2-Biostat
-resources:  
-The code file is: HW2.py  
-The test file is: test_823a2.py
+
 ## Number theory and a Google recruitment puzzle
 
 Find the first 10-digit prime in the decimal expansion of 17π. 
