@@ -1,3 +1,4 @@
+hw2
 # Solution Strategy for HW2-Biostat
 resources:  
 The code file is: HW2.py  
