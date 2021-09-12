@@ -114,6 +114,6 @@ We put the target number and the required length of digits into ExpMath function
 
 For example, given target number = 123, we want to find out the first 2-dicimal prime number. The initial range is 1,2. However, 12 is not a prime. Thus, we extend the range to 1,2,3, and add one to left indice to shift the range to 2,3. 
 
-Eventually, we could find find out the prime.
+Eventually, we could find find out the prime. **the first 10-digit prime in the decimal expansion of 17π is: 8649375157**
 
 ===== END
