@@ -68,6 +68,7 @@ def ExpMath(n, digits):
         return str(n)[0:digits]
 ```
 We change the number value to string, to help us find the required length of digit number and remove the decimal.   
+  Also, eval function will round up the decimals automatically, so I add one more digit (n+1) in eval function and keep the first n digits to solve this issue.  
   
 **Function: SlidWind(num, l)**  
 This function is extend the length of searching range to find out the satified length of prime number. The input value is a number+number, and output of the function is a number.  
