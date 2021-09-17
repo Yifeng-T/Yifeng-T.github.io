@@ -1,4 +1,4 @@
-code resources: https://github.com/Yifeng-T/Biostat823_HomeWork/tree/HW1 
+code resources: https://github.com/Yifeng-T/Biostat823_HomeWork/tree/main/HW1 
   
 Solutoin Strategy for HW1
 ## Project Eular: Problrm 6
