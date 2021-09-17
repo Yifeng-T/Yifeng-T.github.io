@@ -108,7 +108,6 @@ In the cindition of while loop:
 
     #define the prime
     result = int(ExpMath(num, len)[left:left+l])
-    print(f"the first 10-digit prime in the decimal expansion of 17π is: {result}")
     return result
 ```
 We put the target number and the required length of digits into ExpMath function, to convert the number to digit string format. Then, cut the required part of the string and convert it to Int. And put it into function findprime(n). If we don't find the satisfied length of prime number, we need extend the searching range, thus we add 1 to len every time. However, we need to ensure the length of prime number is satisfied. When we extend the searching range, we need to check the later pair of prime number. Thus, we add 1 to left, to shift the range and ensure that the left searching bound is satisfied.   
