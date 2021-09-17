@@ -1,6 +1,6 @@
 Resources:  
-The files are located: https://github.com/Yifeng-T/Biostat823_HomeWork/tree/main/HW2 
-   The code file is: HW2.py  
+The files are located: https://github.com/Yifeng-T/Biostat823_HomeWork/tree/main/HW2  
+  The code file is: HW2.py  
 The test file is: test_823a2.py
 # Solution Strategy for HW2-Biostat
 
