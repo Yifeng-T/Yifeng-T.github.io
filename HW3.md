@@ -1,6 +1,7 @@
-HW3:  
+
 Resources could be found [HERE](https://github.com/Yifeng-T/Biostat823_HomeWork/tree/main/HW3)  
-The data sets are from [HERE](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018/2018-11-13)    
+The data sets are from [HERE](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018/2018-11-13)   
+# HW3
   
 # Introduction:
 The three data sets are all related to malaria.  
