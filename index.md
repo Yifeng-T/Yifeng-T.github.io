@@ -3,7 +3,8 @@ layout: page
 excerpt: "About Me..."
 ---
 
-Hi, I am Yifeng. Welcome to my personal website. 
+Hi, I am Yifeng. Welcome to my personal website.  
+Currently, I am a research assistant and a statistician intern in Duke Molceular Physiology Institute. The key responsibilities are to do GWAS analysis, data cleaning, and finishing statistical analysis plan.
 
 ## Current Interests and Projects:
 
