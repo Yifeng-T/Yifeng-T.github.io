@@ -5,36 +5,48 @@ The data sets are from [HERE](https://github.com/rfordatascience/tidytuesday/tre
   
 # Introduction:
 The three data sets are all related to malaria.  
-Through a brief overview of the data sets, I found there are over 200 entities in each data set. In order to provide more efficient data visualization to users and make sure they could easily gain information about malaria in each entity, I used matplotlib and ipywidges libraries. Matplotlib could show a clear relationship between some indexes of malaria and year in every entity, while ipywidges could provide an interface to allow users to select their interested entities. I cannot show the information from all entities on one single graph, so I think giving the selection choice to users to see which one they are interested is a good idea. To enable users to view the current entity information, they can also take into account the data of other entities. I added the curve which representes the average value among all entities in table1 and table3. Below, I will show some details of each dataset and corresponding data visulizations. 
+Through a brief overview of the data sets, I found there are over 200 entities in each data set. In order to provide more efficient data visualization to users and make sure they could easily gain information about malaria in each entity, I used matplotlib and ipywidges libraries. Matplotlib could show a clear relationship between some indexes of malaria and year in every entity, while ipywidges could provide an interface to allow users to select their interested entities. I cannot show the information from all entities on one single graph, so I think giving the selections choice to users to see which one they are interested is a good idea. To enable users to view the current entity information, they can also take into account the data of other entities. I added the curve which representes the average value among all entities in table1 and table3. Below, I will show some details of each dataset and corresponding data visulizations. 
 # The first data set:
 ## Overview: malaria_deaths.csv:
 ![table1.png](https://i.loli.net/2021/09/29/yjEiz7vYBUGw6QX.png)
-The first table contains 6 variables. The column: "value" contains the exact same values as column:"Death-Malaria-Sex: both.... people)". It is just easier to call the values in that column by recreating a new column named "value". Mean_rate column contains the average death rate among all entities in each year. Below is the function to achieve the visulization and interface:
+  
+  
+The first table contains 6 variables. The column: **"value"** contains the exact same values as column:"Death-Malaria-Sex: both.... people)". It is just easier to call the values in that column by recreating a new column named "value". **Mean_rate** column contains the average death rate among all entities in each year. Below is the function to achieve the visulization and interface:
 ## Data visulization:  
 ```python
-def create_plot(entity):
+def create_plot(entity1, entity2):
+    if (entity1 == entity2):
+            print("The two input entities are the same, only showing the second input entity")
     
     with plt.style.context("ggplot"):
         fig = plt.figure(figsize=(8,6))
-        
-        plt.plot(table1[table1.Entity == entity].Year,
-                 table1[table1.Entity == entity].value,
+        fig.clear()
+        plt.plot(table1[table1.Entity == entity1].Year,
+                 table1[table1.Entity == entity1].value,
                  'o-',
                  color = 'black'
                    )
-        plt.plot(table1[table1.Entity == entity].Year,
-                 table1[table1.Entity == entity].mean_rate,
+        plt.plot(table1[table1.Entity == entity1].Year,
+                 table1[table1.Entity == entity1].year_mean_rate,
                  'o-',
-                 color = 'red'
+                 color = 'red')
+        plt.plot(table1[table1.Entity == entity2].Year,
+                 table1[table1.Entity == entity2].value,
+                 'o-',
+                 color = 'yellow'
                    )
-        plt.legend([f"{entity}", "Average of DeathRate for all entities"], title = "Entity vs Average")
+        
+        plt.legend([f"{entity1}", "Average of DeathRate for all entities",\
+                    f"{entity2}"], \
+                   title = "CurrentEntity vs AvgForAll vs AvgInContinent")
         plt.xlabel("Year")
         plt.ylabel("Death rate/100,000 People")
-        plt.title(f"The Death Rate of Malaria vs Year in {entity}")
+        plt.title(f"The Death Rate of Malaria during Years")
         
-widgets.interact(create_plot, entity=sorted(set(table1.Entity)));
+widgets.interact(create_plot, entity1=sorted(set(table1.Entity)), entity2=sorted(set(table1.Entity)));
 ```  
 =================================  
+Uers could select at most two prefered entities, and there would be a line represents the average value among all entities.   
 Here is a brief gif picture to show how the interface works:
 ![graph1.gif](https://i.loli.net/2021/09/30/9wMmYyN1vzaJg2B.gif)
 
@@ -67,31 +79,44 @@ Here is a gif picture to show how the interface works:
 # The thrid data set
 ## Overview: malaria_inc.csv
 ![table3.png](https://i.loli.net/2021/09/29/e1ZjsMRhwKvCu5E.png)  
-The third table contains 6 variables. The column: "value" contains the exact same values as column:"Incidence of malaria.... at risk)". It is just easier to call the values in that column by recreating a new column named "value". Mean_INCIDENCErate is a column contains the average death rate among all entities in each year. Below is the function to achieve the visulization and interface:
+The third table contains 6 variables. The column: **"value"** contains the exact same values as column:"Incidence of malaria.... at risk)". It is just easier to call the values in that column by recreating a new column named "value". **Mean_INCIDENCErate** is a column contains the average death rate among all entities in each year. Below is the function to achieve the visulization and interface:
 ## Data visulization for the third dataset:
 ```python
-def create_plot3(entity):
-    
+def create_plot3(entity1, entity2):
+    if (entity1 == entity2):
+            print("The two input entities are the same, only showing the second input entity")
+
     with plt.style.context("ggplot"):
         fig = plt.figure(figsize=(8,6))
+        fig.clear()
         
-        plt.plot(table3[table3.Entity == entity].Year,
-                 table3[table3.Entity == entity].value,
-                 'o-',
+        plt.plot(table3[table3.Entity == entity1].Year,
+                 table3[table3.Entity == entity1].value,
+                 linestyle='-',
                  color = 'black'
                    )
-        plt.plot(table3[table3.Entity == entity].Year,
-                 table3[table3.Entity == entity].mean_INCIDENCErate,
-                 'o-',
+        plt.plot(table3[table3.Entity == entity1].Year,
+                 table3[table3.Entity == entity1].mean_INCIDENCErate,
+                 linestyle=':',
                  color = 'red'
                    )
-        plt.legend([f"{entity}", "Average of INCIDENCErate for all entities"], title = "Entity vs Average")
+        plt.plot(table3[table3.Entity == entity2].Year,
+                 table3[table3.Entity == entity2].value,
+                 linestyle="--",
+                 color = 'yellow'
+                   )
+        plt.legend([f"{entity1}", 
+                    "Avg of INCIDENCErate for all entities",
+                    f"{entity2}"], title = "Entity vs Average")
         plt.xlabel("Year")
-        plt.ylabel("Incdidence rate/100,000 People")
-        plt.title(f"The Death Rate of Malaria vs Year in {entity}")
+        plt.ylabel("Incidence rate/100,000 People")
+        plt.title(f"The Incidence Rate of Malaria vs Year")
         
-widgets.interact(create_plot3, entity=sorted(set(table3.Entity)));
+        
+widgets.interact(create_plot3, entity1=sorted(set(table3.Entity)),  entity2=sorted(set(table3.Entity)));
 ```
 ===========================  
+Uers could select at most two prefered entities, and there would be a line represents the average value among all entities.   
+
 Here is a brief gif picture to show how the interface works:
 ![graph3.gif](https://i.loli.net/2021/09/30/uGXjSnwpDNMEH7d.gif)
