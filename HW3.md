@@ -36,7 +36,7 @@ widgets.interact(create_plot, entity=sorted(set(table1.Entity)));
 ```  
 =================================  
 Here is a brief gif picture to show how the interface works:
-![graph1.gif](https://i.loli.net/2021/09/28/xZSUGlCundIqboQ.gif)
+![graph1.gif](https://i.loli.net/2021/09/30/9wMmYyN1vzaJg2B.gif)
 
 # The second data set
 ## Overview: malaria_deaths_age.csv
@@ -61,8 +61,8 @@ def create_plot2(entity):
 widgets.interact(create_plot2, entity=sorted(set(table2.entity)));
 ```
 =================================  
-Here is a brief gif picture to show how the interface works:  
-![graph2.gif](https://i.loli.net/2021/09/28/5lAw3EUJXueGMDP.gif)
+Here is a gif picture to show how the interface works:  
+![graph2.gif](https://i.loli.net/2021/09/30/e1hSlIKJcauMtxQ.gif)
 
 # The thrid data set
 ## Overview: malaria_inc.csv
@@ -94,4 +94,4 @@ widgets.interact(create_plot3, entity=sorted(set(table3.Entity)));
 ```
 ===========================  
 Here is a brief gif picture to show how the interface works:
-![graph3.gif](https://i.loli.net/2021/09/28/VbR1ngv9OTNxIPy.gif)
+![graph3.gif](https://i.loli.net/2021/09/30/uGXjSnwpDNMEH7d.gif)
