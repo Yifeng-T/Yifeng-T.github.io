@@ -90,8 +90,13 @@ The stroke prediction user-interface has three windows:
 <br>
 1. Initial-introduction window
 2. Main window (includes input boxes)
-3. Result window
+3. Result window.  
 
+Below is a gif to show how the interface works:  
+![graph3.gif](https://i.loli.net/2021/10/03/hpwcjQBafoYRsIT.gif) 
+  
+  
+============================================
 
 Initial-introduction window includes basic information of this tool and disclaimer.
 
