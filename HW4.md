@@ -110,8 +110,8 @@ $ git add .
 $ git commit -m "add application to web"
 
 $ heroku create AppName
-git push heroku master
-heroku ps:scale web = 1
+$ git push heroku master
+$ heroku ps:scale web = 1
 ```
 When it set up, you can access the web to share it with your friends. To access your app, copy https://AppName.herokuapp.com/ in your browser and replace AppName with the name you defined in the previous step.
 
