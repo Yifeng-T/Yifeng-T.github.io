@@ -93,7 +93,10 @@ normalized_ds = train_ds.map(lambda x, y: (normalization_layer(x), y))
 image_batch, labels_batch = next(iter(normalized_ds))
 first_image = image_batch[0]
 ```
-
+Let's see some samples of the data:
+![WechatIMG18742.png](https://i.loli.net/2021/11/15/OMLIUuJ5Ke24Ync.png)
+  
+  
 ## Create the model:
 The Sequential model consists of three convolution blocks (tf.keras.layers.Conv2D) with a max pooling layer (tf.keras.layers.MaxPooling2D) in each of them. There's a fully-connected layer (tf.keras.layers.Dense) with 128 units on top of it that is activated by a ReLU activation function ('relu'). This model has not been tuned for high accuracy—the goal of this tutorial is to show a standard approach.
 
