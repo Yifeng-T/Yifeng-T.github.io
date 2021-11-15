@@ -7,7 +7,7 @@ The goal of this project is to train a deep learning model to classify beetles, 
 
 ## Strategy
 I used [Tensorflow](https://github.com/tensorflow/tensorflow), which is a powerful images classification tool. 
-The procedure to finish this machine learning project is:
+The procedure of this machine learning project is:
 * Overview and understand the data
 * Build an input pipepline
 * Create the model
