@@ -37,6 +37,10 @@ matplotlib == 3.3.1.
 numpy == 1.19.1.    
 tensorflow == 2.7.0.   
 
+The following is the structure of the work directory for this project:
+![WechatIMG268.png](https://i.loli.net/2021/11/15/qyGp9KHNs4gTohD.png)
+
+
 ## Preparing the data:
 Overview:  
 There are total number of 1019 pictures for train data. In the 1019 pictures, there are 460 for beetles, 240 for cockroach, and 319 for dragonflies.  
