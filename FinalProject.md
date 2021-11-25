@@ -1,3 +1,4 @@
+823 Final Project
 # Covid-19 Daily Case and Death Prediction
 Team Member: [Caihan Wang](https://github.com/Caihanwang), [Yifeng Tang](https://github.com/Yifeng-T), [Yuxuan Chen](https://github.com/YuxuanMonta)  
 
