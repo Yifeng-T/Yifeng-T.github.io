@@ -41,7 +41,9 @@ For the two important parameters, based on the plot below, we found that the opt
 For the XGBoost model, we firstly train the model 1 (1st day) for daily cases in the training dataset by default parameters. The RMSE of this model was about 810.4, which needed to be decreased. Therefore, we decided to start model parameter tuning for XGBoost. The parameters needed to tune are max_depth, min_child_weight, subsample, colsample, ETA. We use a grid-search method to tune these parameters.  The table below showed the parameter we tried.  
 ![WechatIMG36.png](https://i.loli.net/2021/11/25/zpRuWO9bmKBL6q5.png)
 After a time-consuming tuning process, we finally reached the optimal parameters for this XGBoost model ( max_depth: 4, min_child_weight: 2, subsample: 0.6, colsample: 0.6, ETA: 0,05 ), which have decreased the RMSE to 661.5. Also, we did the same tuning process for the following models and calculated the best parameters for each model.  
-With the best parameters for each model, we fit the XGBoost models and calculate RMSEs for future comparison and evaluation.   
+With the best parameters for each model, we fit the XGBoost models and calculate RMSEs for future comparison and evaluation.  
+![WechatIMG37.png](https://i.loli.net/2021/11/25/4RT5YVwWX6PBrA9.png)
+Also,  two importances plots are shown above, indicating that the numbers of cases and deaths were significantly weekly cyclical in that 7 days lagged data was the most important predictors in all XGBoost models, which is the same result as random forest models. 
 ### Model Evaluation and Comparison
 The figures following are the comparison of XGBoost and Random Forest by RMSE in each model.
 ![WechatIMG29.png](https://i.loli.net/2021/11/25/oxNB2HksTZ9icgW.png) 
