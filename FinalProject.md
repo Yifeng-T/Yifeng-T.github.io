@@ -3,8 +3,8 @@
 Team Member: [Caihan Wang](https://github.com/Caihanwang), [Yifeng Tang](https://github.com/Yifeng-T), [Yuxuan Chen](https://github.com/YuxuanMonta)  
 
 ## Website Source:
-* Github Repository: https://github.com/Caihanwang/BIOS823_Final
-* Dashboard: https://covid19-project-823.herokuapp.com/
+* [Github Repository:](https://github.com/Caihanwang/BIOS823_Final)
+* [Dashboard:](https://covid19-project-823.herokuapp.com/)
 
 ## Executive Summary
 In this project, our goal was to predict the daily number of COVID-19 confirmed cases and deaths over a week. Compared to XGBoost, Random Forest model was our final choice considering it had lower RMSE. In this way, our final outputs were 14 Random Forest models, 7 for daily deaths forecast of future 7 days respectively and for daily confirmed cases forecast of future 7 days. In addition, we validated our models by forecasting the daily death and daily cases from Nov 15 2021 to Nov 21 2021 and got acceptable results.
