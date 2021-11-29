@@ -14,3 +14,6 @@ Currently, I am a research assistant and a statistician intern in [Dr. Yi-ju Li'
 ## Interests:
 - [World of Warcraft-Classic](https://classic.warcraftlogs.com/character/cn/比斯巨兽/桶桶蹦?zone=1007&new=true)
 - [League of Legends](https://na.op.gg/summoner/userName=DonalBoom)
+- Cooking
+- Biking
+- Basketball🏀
