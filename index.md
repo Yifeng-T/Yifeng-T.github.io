@@ -13,7 +13,7 @@ Currently, I am a research assistant and a statistician intern in [Dr. Yi-ju Li'
 
 ## Interests:
 ### Vdeo Games
-- [World of Warcraft-Classic](https://classic.warcraftlogs.com/character/cn/比斯巨兽/桶桶蹦?zone=1007&new=true)
+- [World of Warcraft-Classic](https://classic.warcraftlogs.com/character/cn/%E6%AF%94%E6%96%AF%E5%B7%A8%E5%85%BD/%E6%A1%B6%E6%A1%B6%E8%B9%A6?zone=1007&new=true#zone=1012)
 - [League of Legends](https://na.op.gg/summoner/userName=DonalBoom)
 ### Hobbies
 - Cooking
