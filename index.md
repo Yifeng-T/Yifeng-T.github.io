@@ -3,8 +3,7 @@ layout: page
 excerpt: "About Me..."
 ---
 
-Hi, welcome to my personal website.  
-Currently, I am a statistician in Eli Lilly and Company. 
+Hi, welcome to my personal website.   
 
 ## Current Projects:
 - [Academic - Master Project](https://drive.google.com/file/d/1zN7ANyoZCmo_251-2kKwn7V3SAcBJG8l/view?ths=true)
