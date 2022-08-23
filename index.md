@@ -4,6 +4,7 @@ excerpt: "About Me..."
 ---
 
 Hi, welcome to my personal website.   
+In World of Warcraft-Classic TBC, my fury warrior finally got the pair of Azzinoth!!!!!!
 
 ## Current Projects:
 - [Academic - Master Project](https://drive.google.com/file/d/1zN7ANyoZCmo_251-2kKwn7V3SAcBJG8l/view?ths=true)
