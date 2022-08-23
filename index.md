@@ -3,8 +3,8 @@ layout: page
 excerpt: "About Me..."
 ---
 
-Hi, I am Yifeng. Welcome to my personal website.  
-Currently, I am a research assistant and a statistician intern in [Dr. Yi-ju Li's Group](https://dmpi.duke.edu/faculty/yi-ju-li-phd). The key responsibilities are to do GWAS analysis, data cleaning, and finishing statistical analysis plan.
+Hi, welcome to my personal website.  
+Currently, I am a statistician in Eli Lilly and Company. 
 
 ## Current Projects:
 - [Academic - Master Project](https://drive.google.com/file/d/1zN7ANyoZCmo_251-2kKwn7V3SAcBJG8l/view?ths=true)
